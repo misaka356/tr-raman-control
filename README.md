@@ -55,14 +55,6 @@ python .\tr_raman_ui.py
 Copy-Item .\app_config.template.json .\app_config.json
 ```
 
-## 上传 GitHub 前的范围
-
-本仓库应上传源码、文档、配置模板和打包脚本；不上传：
-
-- `app_config.json` 等本机配置。
-- `TRRamanUI/`、`build/`、`dist/` 等打包产物。
-- `vendor/` 中的厂商 SDK、DLL、CHM、安装器。
-- `.asc`、`.csv`、`.xlsx` 等实验数据和分析输出。
 
 ## 验证
 
