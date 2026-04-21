@@ -1,0 +1,8 @@
+numpy
+pyvisa
+pyvisa-py
+pyserial
+pywinauto
+lmfit
+psutil
+zeroconf

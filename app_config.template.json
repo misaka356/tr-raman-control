@@ -1,0 +1,48 @@
+{
+  "rigol_visa_resource": "USB0::0x1AB1::0x0643::DGXXXXXXXXX::INSTR",
+  "andor_sdk_root": "C:\\Users\\adimn\\Desktop\\code\\andor\\vendor\\andor_sdk",
+  "output_dir": "C:\\AndorOutput",
+  "sample_name": "sample",
+  "phase_start_deg": 0.0,
+  "phase_stop_deg": 360.0,
+  "phase_step_deg": 10.0,
+  "repeats_per_phase": 3,
+  "ch1_start_delay_ms": 0.0,
+  "settle_time_ms": 200.0,
+  "offline_simulation": false,
+  "ch1": {
+    "waveform": "square",
+    "frequency_hz": 1000.0,
+    "amplitude_vpp": 5.0,
+    "offset_vdc": 0.0,
+    "phase_deg": 0.0,
+    "duty_cycle_percent": 50.0
+  },
+  "ch2": {
+    "waveform": "sin",
+    "frequency_hz": 1000.0,
+    "amplitude_vpp": 1.0,
+    "offset_vdc": 0.0,
+    "phase_deg": 20.0,
+    "duty_cycle_percent": 50.0
+  },
+  "spectrometer": {
+    "rayleigh_wavelength_nm": 532.0,
+    "center_wavelength_nm": 547.18,
+    "grating_no": 3,
+    "exposure_ms": 1000.0,
+    "trigger_mode": 1,
+    "slit_width_um": null,
+    "target_temperature_c": -60,
+    "required_temperature_c": -60,
+    "cooldown_timeout_s": 3600.0,
+    "pre_amp_gain": 2.0,
+    "horizontal_readout_mhz": 1.48,
+    "output_amplifier": "conventional",
+    "ad_channel": 0,
+    "camera_shutter_mode": null,
+    "camera_shutter_open_ms": 0,
+    "camera_shutter_close_ms": 0,
+    "shamrock_shutter_mode": null
+  }
+}
